@@ -7,5 +7,18 @@
     "test": "nyc --reporter=html mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
-  "repository": "nahanjs/nahan-context-koa"
+  "repository": "nahanjs/nahan-context-koa",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "on-finished": "^2.3.0",
+    "statuses": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "mocha": "^8.1.1",
+    "nahan-onion": "^0.1.3",
+    "nyc": "^15.1.0",
+    "supertest": "^4.0.2"
+  }
 }
