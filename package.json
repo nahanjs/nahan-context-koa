@@ -1,7 +1,7 @@
 {
   "name": "nahan-context-koa",
   "version": "0.0.0",
-  "description": "",
+  "description": "Wrap koa into middleware.",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=html mocha",
